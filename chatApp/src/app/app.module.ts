@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { HttpModule } from '@angular/http';
 
 import { Routes, RouterModule } from '@angular/router';
 import { ModuleWithProviders } from '@angular/core';
@@ -11,7 +12,7 @@ import { AppComponent } from './app.component';
 
 import { LoginComponent } from './login/login.component';
 import { SignupComponent } from './signup/signup.component';
-import { routes } from './app.routers';
+import { routes } from './app.routes';
 
 export const firebaseConfig = {
   apiKey: "AIzaSyBrULOXkOPNey2Jd5yPxr3Jts6ZkE4yFRU",
